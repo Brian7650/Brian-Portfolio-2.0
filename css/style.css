@@ -146,7 +146,7 @@ img {
   background-color: #FFFFFF;
 }
 .about .svg-inline--fa {
-  color: #f05454;
+  color: #29252c;
   font-size: 1.15rem;
   margin-left: 0;
   padding-left: 0;
@@ -199,7 +199,7 @@ img {
 .history-circle {
   background-color: #f05454;
   border-radius: 50%;
-  border: .2rem solid #F8F9FA;
+  border: .2rem solid #f05454;
   min-height: 11rem;
   max-height: 11rem;
   min-width: 11rem;
@@ -256,8 +256,8 @@ img {
 a.filter.is-checked,
 li a.nav-link.filter.active,
 li a.nav-link.filter:hover {
-  background-color: #00b4ba!important;
-  color: #fff!important;
+  background-color: #f05454!important;
+  color: #ffffff!important;
   cursor: pointer!important;
 }
 a.nav-link.filter {
@@ -346,7 +346,7 @@ footer a {
 }
 footer a:hover {
   text-decoration: none;
-  color: white;
+  color: #a8b4b9;
 }
 ul.social {
   display: flex;
@@ -359,7 +359,7 @@ ul.social li {
   padding-right: .6rem;
 }
 footer .social a:hover {
-  color: #00b4ba;
+  color: #a8b4b9;
   text-decoration: none;
 }
 footer .svg-inline--fa {
@@ -369,7 +369,7 @@ footer .svg-inline--fa {
   transition: all 0.5s ease 0s;
 }
 footer svg.svg-inline--fa:hover {
-  color: #00b4ba!important;
+  color: #a8b4b9!important;
 }
 
 /*--- Contact Form --*/
@@ -384,8 +384,8 @@ footer svg.svg-inline--fa:hover {
   font-size: 1.1rem;
 }
 .form-control:focus {
-  background: #676e73;
-  border: .15rem solid #93979b;
+  background: #a8b4b9;
+  border: .15rem solid #a8b4b9;
 }
 .form-group input::placeholder,
 .form-group textarea::placeholder {
@@ -422,7 +422,7 @@ input.btn {
   height: 2.3rem;
   width: 2.3rem;
   color: white;
-  background: #53595f;
+  background: #D8E9F0;
   border-radius: .2rem;
 }
 a.top-scroll {
@@ -487,7 +487,7 @@ a.top-scroll:hover {
   h5 { font-size: 1.2rem; }
   h6 { font-size: 1.1rem; }
   p { 
-    font-size: 1.1rem;
+    font-size: 1.7rem;
     color: #33425B; 
   }
   /*--- Nav Scrolling Offset --*/
@@ -671,6 +671,8 @@ h6 {
   color: #ffffff;
 }
 
-.mb-2, .mb-4 {
+.mb-2, .mb-4, .blue_font, .text-aqua{
   color: #33425B;
+  font-weight: bold;
 }
+
