@@ -84,7 +84,7 @@ a, .btn, button {
 }
 .btn-red:hover,
 .btn-red:focus {
-  border-color: #f05454!important;
+  border-color: #FFFFFF!important;
   background-color: white;
   color: #FFFFFF;
 }
@@ -96,7 +96,7 @@ a, .btn, button {
 }
 /*-- Banner Image --*/
 .banner-img {
-  max-height: 23rem!important;
+  max-height: 14rem!important;
   border-radius: 50%!important;
   box-shadow: 0 0 .8rem rgba(0, 0, 0, .1);
 }
@@ -186,41 +186,12 @@ img {
   background-color: rgba(255, 255, 255, .6);
 }
 
-/*===== EXPERIENCE =====*/
-/* 
-.title-underline-left {
-  margin: 1rem 0 1.5rem;
-  width: 3rem;
-  height: .15rem;
-  background-color: #ffffff;
-} */
-
-/*-- Red Date Circle --*/
-/* .history-circle {
-  background-color: #f05454;
-  border-radius: 50%;
-  border: .2rem solid #f05454;
-  min-height: 11rem;
-  max-height: 11rem;
-  min-width: 11rem;
-  max-width: 11rem;
-  box-shadow: 0 0 .8rem rgba(0, 0, 0, .1);
-}
-.history-circle h5 {
-  text-align: center;
-  color: white;
-  line-height: 1.8rem;
-}
-.border {
-  box-shadow: 0 0 .5rem rgba(0, 0, 0, .1);
-} */
-
 /*-- Circle Progress --*/
 .circle {
   margin: 1rem auto;
 }
 .circle canvas {
-  background-color: #f05454;
+  background-color: #33425B;
   border-radius: 50%;
   box-shadow: 0 0 .8rem rgba(0, 0, 0, .15);
 }
@@ -262,6 +233,9 @@ li a.nav-link.filter:hover {
 }
 a.nav-link.filter {
   padding-left: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 /*-- Project Gallery Layout --*/
@@ -284,53 +258,6 @@ a.nav-link.filter {
   opacity: .7!important;
   transition: all 0.3s ease 0s;
 }
-
-/* ============= REFERENCES =============
-
-#references-carousel img {
-  margin: 0 auto!important;
-}
-#references-carousel .owl-carousel .owl-nav {
-  position: absolute;
-  top: 45%;
-  min-width: 100%!important;
-  max-width: 100%!important;
-}
-#references-carousel .owl-carousel .owl-nav button.owl-prev {
-  position: absolute;
-  left: 0!important;
-  padding: .4rem 1rem!important;
-  border: .1rem solid black;
-  font-size: 1.3rem!important;
-  color: black;
-  opacity: .7;
-}
-#references-carousel .owl-carousel .owl-nav button.owl-next {
-  position: absolute;
-  right: 0!important;
-  padding: .4rem 1rem!important;
-  border: .1rem solid black;
-  font-size: 1.3rem!important;
-  color: black;
-  opacity: .7;
-}
-#references-carousel .owl-carousel .owl-nav button.owl-prev:hover,
-#references-carousel .owl-carousel .owl-nav button.owl-next:hover {
-  color: white;
-  background-color: black;
-}
-
-/*-- References Image --*/
-/* .owl-carousel .owl-item img {
-  max-width: 200px;
-  margin: 0 auto;
-  border-radius: 50%;
-  transition: all 0.8s ease 0s;
-  box-shadow: 0 0 .8rem rgba(0, 0, 0, .1);
-}
-.references img:hover {
-  transform: scale(1.1);
-} */ */
 
 /*============= FOOTER =============*/
 
@@ -370,40 +297,6 @@ footer .svg-inline--fa {
 }
 footer svg.svg-inline--fa:hover {
   color: #a8b4b9!important;
-}
-
-/*--- Contact Form --*/
-.form-group {
-  margin-bottom: 1.3rem;
-}
-.form-control {
-  background-color: #D8E9F0;
-  border-radius: 0;
-  border: .15rem solid #D8E9F0;
-  color: #33425B;!important;
-  font-size: 1.1rem;
-}
-.form-control:focus {
-  background: #a8b4b9;
-  border: .15rem solid #a8b4b9;
-}
-.form-group input::placeholder,
-.form-group textarea::placeholder {
-  color: #33425B!important;
-}
-input.btn {
-  cursor: pointer;
-}
-.controls input:focus,
-.controls textarea:focus { /*-- Remove Element Outlines in Contact Form --*/
-  outline: 0 !important;
-  -webkit-appearance: none;
-  box-shadow: none !important;
-}
-.btn-close { /*-- Resize "X" space in success/failure form message --*/
-  width: .5em!important;
-  height: .7em!important;
-  padding: .5em .9em!important;
 }
 
 /*============= SOCKET =============*/
