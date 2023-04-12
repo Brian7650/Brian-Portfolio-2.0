@@ -569,3 +569,20 @@ h6 {
   font-weight: bold;
 }
 
+#contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#contact:hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.1rem;
+}
