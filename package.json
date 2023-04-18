@@ -17,5 +17,8 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Brian7650/Brian-Porfolio-2.0/issues"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
