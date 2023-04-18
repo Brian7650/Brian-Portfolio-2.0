@@ -586,3 +586,27 @@ h6 {
   align-items: center;
   font-size: 2.1rem;
 }
+
+.bi:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.bi {
+  color:#ffffff;
+  fill: currentColor;
+}
+
+.flow-right,
+.flow-left,
+.namefl
+h2, h3 {
+  font-family: "articulat-cf", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.float-md-start {
+  font-family: "articulat-cf", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
