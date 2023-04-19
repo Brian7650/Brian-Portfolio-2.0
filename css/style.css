@@ -594,6 +594,7 @@ h6 {
 .bi {
   color:#ffffff;
   fill: currentColor;
+  padding: 0px 2px;
 }
 
 .flow-right,
@@ -609,4 +610,9 @@ h2, h3 {
   font-family: "articulat-cf", sans-serif;
   font-weight: 700;
   font-style: normal;
+}
+
+.socket {
+  display: flex;
+  justify-content: center;
 }
