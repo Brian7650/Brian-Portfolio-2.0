@@ -5,16 +5,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --mode production",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Brian7650/Brian-Porfolio-2.0.git"
   },
-  "author": "",
+  "author": "Brian",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Brian7650/Brian-Porfolio-2.0/issues"
