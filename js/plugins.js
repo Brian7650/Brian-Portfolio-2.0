@@ -165,9 +165,9 @@ $(document).ready(function () {
    });
 
    $('#circle-5').circleProgress({
-      value: 0.65
+      value: 0.75
    }).on('circle-animation-progress', function (event, progress) {
-      $(this).find('strong').html(Math.round(65 * progress) + '<i>%</i>');
+      $(this).find('strong').html(Math.round(75 * progress) + '<i>%</i>');
    });
 
    $('#circle-6').circleProgress({
@@ -183,9 +183,9 @@ $(document).ready(function () {
    });
 
    $('#circle-8').circleProgress({
-      value: 0.48
+      value: 0.88
    }).on('circle-animation-progress', function (event, progress) {
-      $(this).find('strong').html(Math.round(48 * progress) + '<i>%</i>');
+      $(this).find('strong').html(Math.round(88 * progress) + '<i>%</i>');
    });
 
 });
