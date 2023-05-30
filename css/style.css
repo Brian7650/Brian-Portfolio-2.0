@@ -55,7 +55,7 @@ a, .btn, button {
   display: block;
 }
 
-/*============= BANNER =============*/
+/*=============BACKGROUND COLOUR FOR BANNER IN HOME AREA =============*/
 
 .bg-resume {
   background-color: #33425B;
@@ -66,7 +66,7 @@ a, .btn, button {
 .text-red {
   color: #f05454;
 }
-/*-- Button --*/
+/*-- BUTTONS FOR HOME AREA --*/
 .btn-lg {
   border-width: thin;
   border-radius: 0;
@@ -85,7 +85,7 @@ a, .btn, button {
 .btn-red:hover,
 .btn-red:focus {
   border-color: #FFFFFF!important;
-  background-color: white;
+  background-color: rgb(22, 2, 2);
   color: #FFFFFF;
 }
 .btn-red:hover,
@@ -94,7 +94,7 @@ a, .btn, button {
   background-color: white;
   color: #33425B;
 }
-/*-- Banner Image --*/
+/*-- BANNER FRAME FOR MAIN PROFILE PICTURE --*/
 .banner-img {
   max-height: 14rem!important;
   border-radius: 50%!important;
@@ -104,7 +104,7 @@ img {
   max-width: 100%;
 }
 
-/*============= NAVIGATION =============*/
+/*============= NAVIGATIONS COLOUR & SIZE =============*/
 
 .navbar {
   background: #33425B;
@@ -137,7 +137,7 @@ img {
   border: none!important;
 }
 
-/*============= ABOUT =============*/
+/*============= ABOUT ME AREA =============*/
 
 .title-underline {
   margin: 1rem auto 1.5rem;
@@ -212,16 +212,16 @@ img {
 
 /*============= PORTFOLIO GALLERY FILTER / LIGHTBOX =============*/
 
-/*-- Project Gallery Menu --*/
+/*-- PROJECTS GALLERY MENU--*/
 .gallery {
   width: 100%!important;
 }
 .navbar.projects {
-  min-height: 1rem;
-  letter-spacing: .05rem;
+  min-height: .09rem;
+  letter-spacing: .07rem;
 }
 .filter ul li {
-  padding: .5rem;
+  padding: .7rem;
 }
 .filter ul li.filter-active a.nav-link.filter,
 a.filter.is-checked,
@@ -238,26 +238,35 @@ a.nav-link.filter {
   flex-direction: column;
 }
 
-/*-- Project Gallery Layout --*/
+/*-- Project Gallery Layout & CARD BODY--*/
 .element-item {
   position: relative;
   float: left;
   width: 33%;
   min-height: 14rem;
-  padding: .6rem;
+  padding: .9rem;
 }
 .element-item img {
   width: 100%;
-  margin-bottom: 1.5rem!important;
+  margin-bottom: .1rem!important;
   height: auto;
   display:block;
   transition: all 0.3s ease 0s;
   box-shadow: 0 0 .8rem rgba(0, 0, 0, .2);
 }
 .element-item a img:hover {
-  opacity: .7!important;
+  opacity: .4!important;
   transition: all 0.3s ease 0s;
+  
 }
+
+/* //////////////////////Card Body/////////////////////////////////// */
+
+.card-body {
+  text-align: center;
+  /* background-color: #D8E9F0; */
+}
+
 
 /*============= FOOTER =============*/
 
@@ -308,28 +317,6 @@ footer svg.svg-inline--fa:hover {
   color: white;
 }
 
-/*============= TOP SCROLL =============*/
-
-.top-scroll svg.svg-inline--fa {
-  font-size: 2rem;
-  height: 2.3rem;
-  width: 2.3rem;
-  color: white;
-  background: #D8E9F0;
-  border-radius: .2rem;
-}
-a.top-scroll {
-  right: 1.2rem;
-  bottom: 1.2rem;
-  position: fixed;
-  opacity: .4;
-  z-index: 1000;
-  display: none;
-  transition: all .5s ease;
-}
-a.top-scroll:hover {
-  opacity: .7;
-}
 
 /*============= MEDIA QUERIES =============*/
 
@@ -458,9 +445,9 @@ line-progressbar waypoints can be adjusted at bottom of plugins.js.--*/
   -webkit-animation-delay: none !important;
   -moz-animation-delay: none !important;
   animation-delay: none !important;
-  }
+  } */
 
-*/
+
 
 /*-- OPTION: TURN OFF ANIMATION ON MOBILE::
 Note: may effect line progress bar with slight delay,
@@ -560,8 +547,9 @@ this is required for waypoints/animation to work --*/
   width: 100%
 }
 
+/* ABOUT ME AREA */
 h6 {
-  color: #ffffff;
+  color: #f05454;
 }
 
 .mb-2, .mb-4, .blue_font, .text-aqua{
@@ -569,6 +557,8 @@ h6 {
   font-weight: bold;
 }
 
+
+/* CONTACT AREA */
 #contact {
   display: flex;
   justify-content: center;
