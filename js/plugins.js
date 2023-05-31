@@ -194,6 +194,24 @@ $(document).ready(function () {
       $(this).find('strong').html(Math.round(88 * progress) + '<i>%</i>');
    });
 
+   $('#circle-10').circleProgress({
+      value: 0.8
+   }).on('circle-animation-progress', function (event, progress) {
+      $(this).find('strong').html(Math.round(80 * progress) + '<i>%</i>');
+   });
+
+   $('#circle-11').circleProgress({
+      value: 0.8
+   }).on('circle-animation-progress', function (event, progress) {
+      $(this).find('strong').html(Math.round(80 * progress) + '<i>%</i>');
+   });
+
+   $('#circle-12').circleProgress({
+      value: 0.8
+   }).on('circle-animation-progress', function (event, progress) {
+      $(this).find('strong').html(Math.round(80 * progress) + '<i>%</i>');
+   });
+
 });
 
 /*========== SMOOTH SCROLLING TO LINKS ==========*/
