@@ -123,6 +123,65 @@ $(document).ready(function () {
    });
 });
 
+$(document).ready(function () {
+   var el = $('#circle-9').circleProgress({ value: 0 });
+
+   new Waypoint({
+      element: el.get(0),
+      handler: function () {
+         el.circleProgress({
+            value: el.data('value')
+         });
+         this.destroy();
+      },
+      offset: '70%'
+   });
+});
+
+$(document).ready(function () {
+   var el = $('#circle-10').circleProgress({ value: 0 });
+
+   new Waypoint({
+      element: el.get(0),
+      handler: function () {
+         el.circleProgress({
+            value: el.data('value')
+         });
+         this.destroy();
+      },
+      offset: '70%'
+   });
+});
+
+$(document).ready(function () {
+   var el = $('#circle-11').circleProgress({ value: 0 });
+
+   new Waypoint({
+      element: el.get(0),
+      handler: function () {
+         el.circleProgress({
+            value: el.data('value')
+         });
+         this.destroy();
+      },
+      offset: '70%'
+   });
+});
+
+$(document).ready(function () {
+   var el = $('#circle-12').circleProgress({ value: 0 });
+
+   new Waypoint({
+      element: el.get(0),
+      handler: function () {
+         el.circleProgress({
+            value: el.data('value')
+         });
+         this.destroy();
+      },
+      offset: '70%'
+   });
+});
 
 /*========== CUSTOMIZABLE JQUERY CIRCLE PROGRESS SETTINGS ==========*/
 $(document).ready(function () {
