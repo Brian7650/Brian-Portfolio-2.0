@@ -383,7 +383,7 @@ footer svg.svg-inline--fa:hover {
   @media (max-width: 767.98px) {
     
       p { 
-        font-size: 0.9rem;
+        font-size: 1rem;
         color:#ffffff;
     }
   }
@@ -624,4 +624,8 @@ h2, h3 {
 .socket {
   display: flex;
   justify-content: center;
+}
+
+.lead {
+  size: 200px;
 }
